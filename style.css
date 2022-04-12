@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+}
+
+html,
+body {
+    height: 100vh;
+}
+
+.bg-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.container {
+    color: #fff;
+}
+
+.container a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.m11 {
+    font-family: 'Redressed', cursive;
+    font-size: 5rem;
+    text-transform: uppercase;
+    background: brown;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 150px;
+    text-align: center;
+    position: relative;
+    bottom: 70px;
+}
+
+
+/* .container {
+    font-family: 'Redressed', cursive;
+    font-size: 5rem;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} */
+
+.m2 {
+    font-family: 'Redressed', cursive;
+    font-size: 40px;
+    font-weight: 900;
+    position: relative;
+    left: 600px;
+    bottom: 60px;
+    text-transform: uppercase;
+    background: brown;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.m2:hover {
+    border-bottom: 2px solid rgb(212, 180, 73);
+}
+
+p {
+    font-family: 'Redressed', cursive;
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.container svg :hover {
+    fill: black;
+}
+
+.i-2 {
+    position: relative;
+    left: 825px;
+    width: 50px;
+    height: 70px;
+}
+
+.p-01 {
+    position: relative;
+    top: -400px;
+    left: 550px;
+    margin-top: 510px;
+    color: brown;
+    font-size: 30px;
+    width: 600px;
+}
+
+.li {
+    position: relative;
+    left: 1120px;
+    bottom: 450px;
+    width: 250px;
+}
+
+.lu {
+    position: relative;
+    right: 1120px;
+    bottom: 450px;
+    width: 250px;
+}
+
+img:hover {
+    border-bottom: 4px dashed goldenrod;
+}
+
+.j1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+}
